@@ -30,17 +30,44 @@
 ## Раздел второй - Списки
 
 
-робелами в начале каждой строки.
+Для разметки неупорядоченных списков можно использовать или `*`, или `-`, или `+`:
+- элемент 1 
+- элемент 2 
+- элемент ...
 
-Но в GitHub-Flavored Markdown (сокращенно GFM) есть более удобный способ: ставим по три апострофа (на букве Ё) до и после кода. Также можно указать язык исходного кода.
-```html 
-<nav class="nav nav-primary">  
-    <ul> робелами в начале каждой строки.
+Вложенные пункты создаются четырьмя пробелами перед маркером пункта:
+* элемент 1 
+* элемент 2    
+    * вложенный элемент 2.1    
+    * вложенный элемент 2.2 
+* элемент ...
 
-Но в GitHub-Flavored Markdown (сокращенно GFM) есть более удобный способ: ставим по три апострофа (на букве Ё) до и после кода. Также можно указать язык исходного кода.
-```html 
-<nav class="nav nav-primary">  
-    <ul> 
+Упорядоченный список:
+1. элемент 1 
+2. элемент 2    
+    1. вложенный    
+    2. вложенный 
+3. элемент 3
+4. Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse id sem consectetuer libero luctus adipiscing.
+
+На самом деле не важно как в коде пронумерованы пункты, главное, чтобы перед элементом списка стояла цифра (любая) с точкой. Можно сделать и так:
+
+0. элемент 1 
+0. элемент 2 
+0. элемент 3 
+0. элемент 4
+
+Список с абзацами:
+
+* Раз абзац. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+* Два абзац. Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse id sem consectetuer libero luctus adipiscing.
+
+* Три абзац. Ea, quis, alias nobis porro quos laborum minus sed fuga odio dolore natus quas cum enim necessitatibus magni provident non saepe sequi?
+
+Четыре абзац (Четыре пробела в начале или один tab).
+
+
 ## Раздел третий - Исходный код
 
 В чистом Маркдауне блоки кода отбиваются 4 пробелами в начале каждой строки.
